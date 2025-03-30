@@ -1,5 +1,30 @@
-baseURL = 'https://blog.pluggedspace.org/'
-languageCode = 'en-us'
-title = 'Pluggedspace Blog'
-theme = "papermod"
+baseURL = "https://blog.pluggedspace.org/"
+languageCode = "en-us"
+title = "Pluggedspace Blog"
+theme = "PaperMod"
 
+[params]
+  [params.homeInfoParams]
+    Title = "Hi there 👋"
+    Content = "Sockets and Plugs, Links, about..."
+
+  [[params.socialIcons]]
+    name = "Twitter"
+    url = "https://twitter.com/pluggedspace_io"
+
+  [[params.socialIcons]]
+    name = "GitHub"
+    url = "https://github.com/pluggedspace"
+
+  [[params.socialIcons]]
+    name = "Instagram"
+    url = "https://instagram.com/pluggedspace"
+
+  [[params.socialIcons]]
+    name = "LinkedIn"
+    url = "https://linkedin.com/company/pluggedspace"
+
+  ShowSearch = true 
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"] # JSON is needed for search
