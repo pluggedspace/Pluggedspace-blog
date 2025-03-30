@@ -8,6 +8,8 @@ theme = "PaperMod"
   ShowSearch = true
   defaultTheme = "light" 
 
+  favicon = "pluggedspace.png"
+
   title = "Pluggedspace Blog"
   description = "Your blog description here"
   author = "Pluggedspace"
@@ -22,6 +24,8 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
   ShowWordCount = true
+
+  googleAnalyticsID = "G-456240809"
 
   [params.homeInfoParams]
     Title = "Hi there 👋"
