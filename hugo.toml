@@ -74,7 +74,7 @@ theme = "PaperMod"
 [[menu.main]]
   identifier = "blog"
   name = "Blog"
-  url = "/blog/"
+  url = "https://blog.pluggedspace.org"
   weight = 3
 
  [[menu.main]]
