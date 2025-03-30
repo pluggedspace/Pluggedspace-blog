@@ -4,6 +4,9 @@ title = "Pluggedspace Blog"
 theme = "PaperMod"
 
 [params]
+  ShowSearch = true
+  defaultTheme = "light" 
+
   [params.homeInfoParams]
     Title = "Hi there 👋"
     Content = "Sockets and Plugs, Links, about..."
@@ -24,7 +27,41 @@ theme = "PaperMod"
     name = "LinkedIn"
     url = "https://linkedin.com/company/pluggedspace"
 
-  ShowSearch = true 
-
 [outputs]
   home = ["HTML", "RSS", "JSON"] # JSON is needed for search
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "https://pluggedspace.org"
+  weight = 1
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "https://pluggedspace.org/about"
+  weight = 2
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog/"
+  weight = 3
+
+ [[menu.main]]
+  identifier = "services"
+  name = "Services"
+  url = "https://pluggedspace.org/services"
+  weight = 4
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "https://pluggedspace.org/projects"
+  weight = 5
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "https://pluggedspace.org/contact/"
+  weight = 6
