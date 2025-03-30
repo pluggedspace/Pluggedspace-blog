@@ -4,6 +4,11 @@
     <title>Pluggedspace Blog</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Pluggedspace Blog</description>
+    <image>
+      <title>Pluggedspace Blog</title>
+      <url>http://localhost:1313/your-featured-image-url.jpg</url>
+      <link>http://localhost:1313/your-featured-image-url.jpg</link>
+    </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Mar 2025 00:45:28 +0100</lastBuildDate>

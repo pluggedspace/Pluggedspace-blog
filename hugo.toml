@@ -8,6 +8,21 @@ theme = "PaperMod"
   ShowSearch = true
   defaultTheme = "light" 
 
+  title = "Pluggedspace Blog"
+  description = "Your blog description here"
+  author = "Pluggedspace"
+  keywords = ["technology", "fintech", "automation"]
+  images = ["your-featured-image-url.jpg"]
+  disableSpecial1stPost = true
+  disableScrollToTop = false
+  disableShare = false
+
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowWordCount = true
+
   [params.homeInfoParams]
     Title = "Hi there 👋"
     Content = "Sockets and Plugs, Links, about..."
@@ -27,6 +42,15 @@ theme = "PaperMod"
   [[params.socialIcons]]
     name = "LinkedIn"
     url = "https://linkedin.com/company/pluggedspace"
+
+
+
+[params.opengraph]
+  twitter_cards = true
+  facebook = true
+
+[params.seo]
+  hideMetadata = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"] # JSON is needed for search
@@ -66,3 +90,8 @@ theme = "PaperMod"
   name = "Contact"
   url = "https://pluggedspace.org/contact/"
   weight = 6
+
+
+
+
+  

@@ -8,7 +8,7 @@
 <title>Job Autobot: The Ultimate AI Job Hunting Tool for Remote Workers and Freelancers | Pluggedspace Blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="Job Autobot is an AI-powered job search assistant designed for remote workers, freelancers, and gig economy professionals. Automate job searches, get real-time alerts, and auto-apply with AI.">
-<meta name="author" content="">
+<meta name="author" content="Pluggedspace">
 <link rel="canonical" href="http://localhost:1313/posts/job-autobot-ai-job-hunting-tool/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.6da9a63d25a9608bca2f7f907a030e887a7dd3c3f3918e4cc113129361414bda.css" integrity="sha256-bammPSWpYIvKL3&#43;QegMOiHp908PzkY5MwRMSk2FBS9o=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
@@ -133,14 +133,14 @@
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Job Autobot: The Ultimate AI Job Hunting Tool for Remote Workers and Freelancers
     </h1>
     <div class="post-description">
       Job Autobot is an AI-powered job search assistant designed for remote workers, freelancers, and gig economy professionals. Automate job searches, get real-time alerts, and auto-apply with AI.
     </div>
-    <div class="post-meta"><span title='2025-03-30 00:45:28 +0100 WAT'>March 30, 2025</span>
+    <div class="post-meta"><span title='2025-03-30 00:45:28 +0100 WAT'>March 30, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;430 words&nbsp;·&nbsp;Pluggedspace
 
 </div>
   </header> 
@@ -185,6 +185,7 @@
   <footer class="post-footer">
     <ul class="post-tags">
     </ul>
+
   </footer>
 </article>
     </main>
@@ -257,6 +258,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 
