@@ -1,9 +1,12 @@
 +++
-date: '2025-03-31T12:05:28+01:00' draft: false title: "AI-Powered Compliance and Fraud Detection: The Next Big Thing in Finance"
+date = "2025-03-31T12:05:28+01:00"
+draft = false
+title = "AI-Powered Compliance and Fraud Detection: The Next Big Thing in Finance"
 
-[cover] image = "/images/Ai-fraud.png" alt: ""
+[cover]
+image = "/images/Ai-fraud.png"
+alt = ""
 +++
-
 Introduction
 
 The financial industry is evolving at an unprecedented pace, with digital transactions becoming the norm. However, with this growth comes a surge in fraudulent activities and an increasing burden of compliance regulations. Traditional compliance and fraud detection methods struggle to keep up with the volume and complexity of financial data.
