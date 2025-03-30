@@ -1,0 +1,5 @@
+baseURL = 'https://blog.pluggedspace.org/'
+languageCode = 'en-us'
+title = 'Pluggedspace Blog'
+theme = "papermod"
+
