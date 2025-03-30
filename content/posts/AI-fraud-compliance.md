@@ -1,4 +1,11 @@
-AI-Powered Compliance and Fraud Detection: The Next Big Thing in Finance
++++ date = '2025-03-31T13:05:28+01:00' draft = false title = "AI-Powered Compliance and Fraud Detection: The Next Big Thing in Finance."
+
+[cover] image = "/images/job-autobot.png" alt = ""
+
++++
+
+
+
 
 Introduction
 
