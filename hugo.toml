@@ -1,7 +1,8 @@
 baseURL = "https://blog.pluggedspace.org/"
 languageCode = "en-us"
 title = "Pluggedspace Blog"
-theme = "PaperMod"
+theme = ["github.com/adityatelange/hugo-PaperMod"]
+
 
 [params]
   ShowSearch = true
