@@ -2,7 +2,7 @@ baseURL = "https://blog.pluggedspace.org/"
 languageCode = "en-us"
 title = "Pluggedspace Blog"
 theme = "PaperMod"
-
+googleAnalytics = "G-HNJ4XDXZ6C"
 
 [params]
   ShowSearch = true
