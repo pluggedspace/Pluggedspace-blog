@@ -2,8 +2,8 @@
 date = '2025-03-30T06:45:28+01:00' 
 draft = false 
 title = 'AI-Powered Compliance and Fraud Detection: The Next Big Thing in Finance'
-[cover] image = '/images/Ai-fraud.png' alt = "" 
-comments = true 
+
+[cover] image = "/images/Ai-fraud.png" alt = "" 
 +++
 
 Introduction
