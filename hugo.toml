@@ -52,8 +52,7 @@ googleAnalytics = "G-HNJ4XDXZ6C"
   [params.utterances]
     repo = "pluggedspace/Pluggedspace-blog"  # Your GitHub repo
     issueTerm = "pathname"             # How issues are mapped
-    theme = "github-light"             # Comment theme
-    crossorigin="anonymous"
+    theme = "github-light"  
     label = "blog-comments"
 
 [params.opengraph]
