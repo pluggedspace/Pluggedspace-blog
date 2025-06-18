@@ -29,7 +29,7 @@ googleAnalytics = "G-HNJ4XDXZ6C"
     name = "LinkedIn"
     url = "https://linkedin.com/company/pluggedspace"
 
-  [[params.utterances]]
+  [params.utterances]
     repo = "pluggedspace/Pluggedspace-blog"  # Your GitHub repo
     issueTerm = "pathname"             # How issues are mapped
     theme = "github-light"             # Comment theme

@@ -49,7 +49,7 @@ googleAnalytics = "G-HNJ4XDXZ6C"
 
   
 
-  [[params.utterances]]
+  [params.utterances]
     repo = "pluggedspace/Pluggedspace-blog"  # Your GitHub repo
     issueTerm = "pathname"             # How issues are mapped
     theme = "github-light"             # Comment theme

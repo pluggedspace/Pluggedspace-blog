@@ -1,10 +1,14 @@
-{{- if .Params.comments }}
-<div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="3e2a7960-367f-4f72-9b8c-8ea2649c482a"
-  data-page-id="{{ .File.UniqueID }}"
-  data-page-url="{{ .Permalink }}"
-  data-page-title="{{ .Title }}">
-</div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+{{- if .Site.Params.comments }}
+  {{- if .Params.comments }}
+    <div id="comments">
+      <script src="https://utteranc.es/client.js"
+              repo="{{ .Site.Params.utterances.repo }}"
+              issue-term="{{ .Site.Params.utterances.issueTerm }}"
+              label="{{ .Site.Params.utterances.label }}"
+              theme="{{ .Site.Params.utterances.theme }}"
+              crossorigin="anonymous"
+              async>
+      </script>
+    </div>
+  {{- end }}
 {{- end }}
