@@ -1,10 +1,12 @@
-+++ date = '2025-03-30T00:45:28+01:00' 
-draft = false 
-title = "Job Autobot: The Ultimate AI Job Hunting Tool for Remote Workers and Freelancers" 
++++
+date = '2025-03-30T00:45:28+01:00'
+draft = false
+title = "Job Autobot: The Ultimate AI Job Hunting Tool for Remote Workers and Freelancers"
 description = "Job Autobot is an AI-powered job search assistant designed for remote workers, freelancers, and gig economy professionals. Automate job searches, get real-time alerts, and auto-apply with AI."
 
-[cover] image = "/images/job-autobot.png" alt = ""
-
+[cover]
+image = "/images/job-autobot.png"
+alt = ""
 +++
 
 The gig economy is booming, and more professionals are embracing freelancing and remote work. However, finding the right job opportunities can be overwhelming. Sorting through multiple job boards, crafting applications, and keeping up with deadlines takes time—time better spent honing your craft or working on existing projects.
