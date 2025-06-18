@@ -6,6 +6,7 @@ title = 'AI-Powered Compliance and Fraud Detection: The Next Big Thing in Financ
 [cover] 
 image = "/images/Ai-fraud.png" 
 alt = "" 
+comments = true
 +++
 
 Introduction

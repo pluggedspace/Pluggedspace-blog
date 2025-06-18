@@ -7,6 +7,7 @@ description = "Job Autobot is an AI-powered job search assistant designed for re
 [cover]
 image = "/images/job-autobot.png"
 alt = ""
+comments = true
 +++
 
 The gig economy is booming, and more professionals are embracing freelancing and remote work. However, finding the right job opportunities can be overwhelming. Sorting through multiple job boards, crafting applications, and keeping up with deadlines takes time—time better spent honing your craft or working on existing projects.
