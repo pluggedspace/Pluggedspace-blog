@@ -7,6 +7,7 @@ googleAnalytics = "G-HNJ4XDXZ6C"
 [params]
   ShowSearch = true
   defaultTheme = "light" 
+  comments = true
 
   [params.homeInfoParams]
     Title = "Hi there 👋"
@@ -27,6 +28,14 @@ googleAnalytics = "G-HNJ4XDXZ6C"
   [[params.socialIcons]]
     name = "LinkedIn"
     url = "https://linkedin.com/company/pluggedspace"
+
+  [[params.utterances]]
+    repo = "pluggedspace/Pluggedspace-blog"  # Your GitHub repo
+    issueTerm = "pathname"             # How issues are mapped
+    theme = "github-light"             # Comment theme
+    crossorigin="anonymous"
+    label = "blog-comments"
+
 
 [outputs]
   home = ["HTML", "RSS", "JSON"] # JSON is needed for search

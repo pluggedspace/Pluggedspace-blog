@@ -24,7 +24,7 @@ googleAnalytics = "G-HNJ4XDXZ6C"
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
   ShowWordCount = true
-
+  comments = true
   googleAnalyticsID = "G-HNJ4XDXZ6C"
 
   [params.homeInfoParams]
@@ -47,14 +47,14 @@ googleAnalytics = "G-HNJ4XDXZ6C"
     name = "LinkedIn"
     url = "https://linkedin.com/company/pluggedspace"
 
-  comments = true
+  
 
-[params.utterances]
-  repo = "pluggedspace/Pluggedspace-blog"  # Your GitHub repo
-  issueTerm = "pathname"             # How issues are mapped
-  theme = "github-light"             # Comment theme
-  crossorigin="anonymous"
-  label = "blog-comments"
+  [[params.utterances]]
+    repo = "pluggedspace/Pluggedspace-blog"  # Your GitHub repo
+    issueTerm = "pathname"             # How issues are mapped
+    theme = "github-light"             # Comment theme
+    crossorigin="anonymous"
+    label = "blog-comments"
 
 [params.opengraph]
   twitter_cards = true
