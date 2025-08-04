@@ -53,7 +53,7 @@ googleAnalytics = "G-HNJ4XDXZ6C"
 
 [[menu.main]]
   identifier = "docs"
-  name = "Documentation"
+  name = "Docs"
   url = "https://docs.pluggedspace.org/"
   weight = 3
 
