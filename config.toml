@@ -40,15 +40,15 @@ googleAnalytics = "G-HNJ4XDXZ6C"
   home = ["HTML", "RSS", "JSON"] # JSON is needed for search
 
 [[menu.main]]
-  identifier = "home"
-  name = "Main"
-  url = "https://pluggedspace.org"
-  weight = 1
-
-[[menu.main]]
   identifier = "blog"
   name = "Blog"
   url = "https://blog.pluggedspace.org"
+  weight = 1
+
+[[menu.main]]
+  identifier = "main"
+  name = "Main"
+  url = "https://pluggedspace.org"
   weight = 2
 
 [[menu.main]]
