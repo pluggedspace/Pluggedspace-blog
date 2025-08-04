@@ -10,6 +10,8 @@ googleAnalytics = "G-HNJ4XDXZ6C"
 
   favicon = "images/pluggedspace.png"
 
+  comments = "true"
+
   title = "Pluggedspace Blog"
   description = "Your blog description here"
   author = "Pluggedspace"
