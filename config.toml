@@ -6,7 +6,8 @@ googleAnalytics = "G-HNJ4XDXZ6C"
 
 [params]
   ShowSearch = true
-  defaultTheme = "light" 
+  defaultTheme = "light"
+  favicon = "images/pluggedspace.png"
   comments = true
 
   [params.homeInfoParams]
