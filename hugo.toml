@@ -8,7 +8,7 @@ googleAnalytics = "G-HNJ4XDXZ6C"
   ShowSearch = true
   defaultTheme = "light" 
 
-  favicon = "pluggedspace.png"
+  favicon = "images/pluggedspace.png"
 
   title = "Pluggedspace Blog"
   description = "Your blog description here"
