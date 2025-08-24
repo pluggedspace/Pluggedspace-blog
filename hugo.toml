@@ -9,11 +9,8 @@ googleAnalytics = "G-HNJ4XDXZ6C"
   defaultTheme = "light" 
 
   favicon = "images/pluggedspace.png"
-
-  comments = "true"
-
   title = "Pluggedspace Blog"
-  description = "Your blog description here"
+  description = "Pluggedspace Blog"
   author = "Pluggedspace"
   keywords = ["technology", "fintech", "automation"]
   images = ["your-featured-image-url.jpg"]
