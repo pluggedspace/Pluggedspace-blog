@@ -6,7 +6,7 @@ draft = false
 author = "Marcelinus Apakhade"
 tags = ["AI", "Automation", "Data Insights", "Business Transformation", "Predictive Analytics", "Intelligent Automation", "AIOps", "Augmented Analytics"]
 categories = ["AI", "Business", "Technology"]
-cover = "images/ai-business-transformation.jpg"
+cover = "images/ai-business-transformation.png"
 +++
 
 # AI, Automation & Data Insights: Unlocking Intelligent Business Transformation
