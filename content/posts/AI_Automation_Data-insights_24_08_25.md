@@ -110,7 +110,7 @@ Whether it’s predicting customer needs, streamlining processes, or making smar
 
 🚀 **The future won’t wait.** Start small: pick one high-impact area where AI can deliver quick wins in the next 90 days. Then scale as you learn.  
 
-👉 **[Ready to explore what AI can do for your business?](https://pluggedspace.org/services#ai)** Let’s map your first use case together—your transformation starts here.
+👉 **[Ready to explore what AI can do for your business?](https://pluggedspace.org/services)** Let’s map your first use case together—your transformation starts here.
 
 ---
 
