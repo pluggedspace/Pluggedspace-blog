@@ -9,7 +9,7 @@ author = "Marcelinus Apakhade"
 keywords = ["backend development", "backend developer", "backend web development", "API development", "microservices architecture", "serverless backend API development", "database optimization", "cloud infrastructure", "high-availability systems", "performance optimization backend"]
 
 [cover] 
-image = "images/backend-development-cover.png"
+image = "/images/backend-development-cover.png"
 +++
 
 # Robust, Scalable Backend Development to Power Your Applications
