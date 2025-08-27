@@ -7,7 +7,8 @@ tags = ["backend development", "api development", "microservices", "serverless b
 categories = ["Technology", "Backend Development", "Software Engineering"]
 author = "Marcelinus Apakhade"
 keywords = ["backend development", "backend developer", "backend web development", "API development", "microservices architecture", "serverless backend API development", "database optimization", "cloud infrastructure", "high-availability systems", "performance optimization backend"]
-[cover]
+
+[cover] 
 image = "images/backend-development-cover.png"
 +++
 
