@@ -7,7 +7,9 @@ author = "Marcelinus Apakhade"
 tags = ["PWA", "Progressive Web Apps", "SEO", "SaaS", "Web Development", "Core Web Vitals", "SSR", "Scalability", "Security"]
 categories = ["Web Development", "SEO", "SaaS Solutions"]
 keywords = ["PWA development", "progressive web app SEO", "scalable PWAs", "secure PWA", "Core Web Vitals optimization", "SaaS PWA", "SSR for SEO", "enterprise PWA"]
-[cover] image = "/images/pwa.png" 
+
+[cover] 
+image = "/images/pwa.png" 
 +++
 
 ## Introduction
